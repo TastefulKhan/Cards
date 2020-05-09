@@ -13,6 +13,8 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
     public void OnBeginDrag(PointerEventData eventData)
     {
 
+        // TEST TEST FUCKING TEST
+
         itemBeingDragged = gameObject;
         startPosition = transform.position;
         startParent = transform.parent;
